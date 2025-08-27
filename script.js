@@ -1,3 +1,4 @@
+// Part 1: JavaScript Basics
 let age = 18;
 let message = "";
 
@@ -9,6 +10,7 @@ if (age >= 18) {
 console.log(message);
 document.getElementById("output").textContent = message;
 
+// Part 2: Functions
 function calculateTotal(price, quantity) {
   return price * quantity;
 }
@@ -20,6 +22,7 @@ function formatString(str) {
 console.log("Total: $" + calculateTotal(10, 3));
 console.log(formatString("   hello world   "));
 
+// Part 3: Loops
 let numbers = [1, 2, 3, 4, 5];
 for (let i = 0; i < numbers.length; i++) {
   console.log("Number:", numbers[i]);
@@ -31,6 +34,7 @@ while (counter > 0) {
   counter--;
 }
 
+// Part 4: DOM Manipulation
 const toggleBtn = document.getElementById("toggleBtn");
 const countdownBtn = document.getElementById("countdownBtn");
 const addItemBtn = document.getElementById("addItemBtn");
